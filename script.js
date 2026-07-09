@@ -43,7 +43,7 @@ const suggestionList = document.getElementById("suggestions");
 const searchButton = document.getElementById("search-button");
 const errorMessage = document.getElementById("error-message");
 const pokemonName = document.querySelector("h1");
-const picture = document.getElementById("photo");
+const photo = document.getElementById("photo");
 
 input.addEventListener("blur", () => {
     setTimeout(() => {
