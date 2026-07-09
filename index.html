@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Search</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="pokedex">
+      <img src="./pokedex.jpg" alt="Pokedex" />
+      <h1 id="title"></h1>
+      <div id="photo"></div>
+      <div id="search-div">
+        <div id="search-input-div">
+          <p id="error-message">Not a valid pokemon name</p>
+          <input
+            type="text"
+            id="pokemon-input"
+            placeholder="Enter Pokemon Name"
+          />
+          <ul id="suggestions"></ul>
+        </div>
+        <button id="search-button">Search Pokemon</button>
+      </div>
+      <div id="info">
+        <p id="type">TYPE:</p>
+        <p id="height">HEIGHT:</p>
+        <p id="weight">WEIGHT:</p>
+        <p id="hp">HP:</p>
+        <p id="attack">ATTACK:</p>
+        <p id="defense">DEFENSE:</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
